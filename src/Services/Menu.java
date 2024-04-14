@@ -1,3 +1,5 @@
+package Services;
+
 import java.util.Scanner;
 
 public abstract class Menu {
@@ -18,7 +20,6 @@ public abstract class Menu {
 
     public static int Choices(){
         System.out.println("""
-                    https://v6.exchangerate-api.com/v6/f3d9932f68f46aa9b65503e7/latest/USD
                     -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
                     
                         Olá, bem vindo ao conversor de moedas!
